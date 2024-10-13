@@ -6,7 +6,7 @@ import seaborn as sns
 
 # Load the dataset
 file_path = "group_project.csv"
-df = pd.read_csv("C:\\Users\\235556\\OneDrive\\Desktop\\New folder\\group project.csv")
+df = pd.read_csv("group project.csv")
 
 # Take a sample of 3001 records with random state 55045
 sample_df = df.sample(n=3001, random_state=55045)
